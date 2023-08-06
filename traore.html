@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<script src="app.js" type="module" defer>app.js</script>
+<!-- titre de l'article -->
+    <title>kim</title>
+    <link rel="stylesheet" href="style.css">
+   
+<style>
+.photo1{
+    width: 100%
+}
+article p{
+    margin-bottom: 10px
+}
+cite{
+    font-weight: 700
+}
+  </style>
+</head>
+
+<body>
+    <headers class="headers">
+        <div class="nav">
+            <button type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <hr>
+                <li>
+                    <a href="/index.html">
+                    Acceuil
+                </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="/a_la_une.html">
+                    A la Une
+                    </a>
+                </li>
+                <hr>
+                <li></li>
+            </ul>
+
+        </div>
+        <div class="logo">
+            <a href="/index.html">
+           <img src="/logo/king.png" alt="/logo/king.png">
+            </a>
+        </div>
+        <!-- ajouter affiche dans la classe recherche pour afficher l'input recherche -->
+        <div class="recherche">
+            <div class="img">
+               <img src="/logo/chercher.png" alt="/logo/chercher.png">
+            </div>
+            <div class="input_recherche">
+                <form>
+                    <input type="search" name="recherche" id="recherche" placeholder="recherche...">
+                </form>
+                <img src="/logo/traverser.png" alt="/logo/traverser.png" class="img_recherche">
+            </div>
+        </div>
+    </headers>
+    <main>
+        <article>
+            <!-- titre de l'article -->
+            <h1>Assimi Goïta et Ibrahim Traoré affichent leur proximité avec Vladimir Poutine au sommet Russie-Afrique</h1>
+            <p>
+                Plusieurs présidents africains assistent au sommet Russie-Afrique, qui s’ouvre ce 27 juillet à Saint-Pétersbourg. Parmi eux, les chefs des juntes malienne et burkinabè, pourtant peu enclins à quitter leur pays.
+            </p>
+          <!-- image1 -->
+            <img src="/image/Ibrahim traore/jad20230412-tribune-burkina-isolement-ibrahimtraore-1256x628-1681394514.png" alt="Ibrahim traore" class="photo1">
+            
+            <!-- les paragraphes-->
+            <p>
+                Ses déplacements à l’étranger sont assez rares pour être soulignés. Le 25 juillet, le capitaine Ibrahim Traoré, président de la transition burkinabè, en treillis, ganté et armé, foule le tapis rouge de l’aéroport de Ouagadougou avant de s’envoler pour Saint-Pétersbourg, où va s’ouvrir la deuxième édition du Sommet Russie-Afrique (27-28 juillet).
+                </p>
+                
+        </article>
+        <article class="non_a_la_une"
+       data-elements='{"titre" :".titre","auteur" :".auteur", "catégorie" :".categorie", "date_publication" :".date_publication"}'
+       data-endpoint="/Gestionnaire_page_accueil_non_une.json ">
+           
+        </article>
+    </main>
+      <footer class="footer">
+        <hr>
+        <h2>celebrity and personality </h2>
+        <hr>
+        crée pour le but de couvrir les différentes informations et buzz autour de vos célébrité et personnalité influente 
+        <hr>
+        <h2>crée par :</h2>
+        japhet, passionné des buzz et scondal autour des personnalités
+        <hr>
+        <h3>©japhet company</h3>
+        
+    </footer>
+        
+<template id="template1">
+    <hr>
+     <a href="#">
+         <div class="img_non_une">
+             <img>
+         </div>
+         <div class="main_non_une">
+             <div class="categorie">
+                 <span>musique</span>
+             </div>
+             <h1 class="titre">
+                 c
+             </h1>
+              <div class="date_publication">
+                 
+             </div>
+             <div class="auteur">
+                 
+             </div>
+            
+         </div>
+    
+     </a>
+</template>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="les meilleures article sur les célébrités et politiciens "
+    <title>news célébrité et politique </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<script src="app.js" type="module" defer>app.js</script>
+<script src="acceuil.js" type="module" defer>acceuil.js</script>
+</head>
+
+<body>
+    
+    <headers class="headers">
+        <div class="nav">
+            <button type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <hr>
+                <li>
+                    <a href="/index.html">
+                    Acceuil
+                </a>
+                </li>
+                <hr>
+                <li>
+                    <a href="/a_la_une.html">
+                        A la Une
+                    </a>
+                </li>
+                <hr>
+                <li>
+                    
+                </li>
+            </ul>
+
+        </div>
+        <div class="logo">
+            <a href="/index.html">
+           <img src="/logo/king.png" alt="/logo/king.png">
+            </a>
+        </div>
+        <!-- ajouter affiche dans la classe recherche pour afficher l'input recherche -->
+        <div class="recherche">
+            <div class="img">
+               <img src="/logo/chercher.png" alt="/logo/chercher.png">
+            </div>
+            <div class="input_recherche">
+                <form>
+                    <input type="search" name="recherche" id="recherche" placeholder="recherche...">
+                </form>
+                <img src="/logo/traverser.png" alt="/logo/traverser.png" class="img_recherche">
+            </div>
+        </div>
+    </headers>
+    <main>
+        <div class="a_la_une">
+            <article class="article1">
+                <div>
+                     <a href="/Kim_Kardashian.html">
+                    <img src="/image/Kim_Kardashian/40d9afd317bf9987a3c26f18b9c5edb8.jpeg" alt="/image/Kim_Kardashian/40d9afd317bf9987a3c26f18b9c5edb8.jpeg">
+                    
+                    <h1>
+                        Kim Kardashian et Tristan Thompson tous deux repérés au restaurant Gekko de Bad Bunny après le match de l'Inter Miami...<u> (apuis pour plus de détails ...) </u>
+                    </h1>
+                    <span
+                    class="date_publication">publié le 25 juillet 2023</span>
+                    <br>
+                    <span>Auteur japhet</span>
+                </a>
+                </div>
+                <div>
+                  <a href="/Mbappe.html">
+                        <img src="/image/Mbappé/230403095258-02-lionel-messi-booed-psg-040223.jpg" alt="/image/Mbappé/230403095258-02-lionel-messi-booed-psg-040223.jpg">
+                  
+                  <h1>
+                      Affaire Mbappé: le PSG mis sous pression par le syndicat des joueurs...<u> (apuis pour plus de détails ...) </u>
+                  </h1>
+                  <span class="date_publication"
+                  >publié le 25 juillet 2023</span>
+                  <br>
+                <span>source RMC</span>
+                </div>
+               </a>
+            </article>
+        </div>
+        <hr>
+       <article class="non_a_la_une"
+       data-elements='{"titre" :".titre","auteur" :".auteur", "catégorie" :".categorie", "date_publication" :".date_publication"}'
+       data-endpoint="/Gestionnaire_page_accueil_non_une.json ">
+           
+        </article>
+        <div class="commentaires"
+        data-elements='{"name" :".name","text":".parg"}'
+        data-template="#template_commentaire"
+        >
+            <h2>ajouter un commentaire </h2>
+             <form class="form_commentaire">
+        <input type="text" name="name" id="name" placeholder="Votre pseudo ou prenom" required>
+        <div>
+            <textarea name="text" id="" cols="40" rows="10" required></textarea>
+        </div>
+        <button type="submit">envoyer</button>
+    </form>
+            <h1>commentaires</h1>
+            <div class="target2">
+                
+            </div>
+            
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <hr>
+        <h2>celebrity and personality </h2>
+        <hr>
+        crée pour le but de couvrir les différentes informations et buzz autour de vos célébrité et personnalité influente 
+        <hr>
+        <h2>crée par :</h2>
+        japhet, passionné desbuzz et scondal autour des personnalités
+        <hr>
+        <h3>©japhet company</h3>
+        
+    </footer>
+    
+<template id="template1">
+     <a href="#">
+         <div class="img_non_une">
+             <img>
+         </div>
+         <div class="main_non_une">
+             <div class="categorie">
+                 <span>musique</span>
+             </div>
+             <h1 class="titre">
+                 c
+             </h1>
+              <div class="date_publication">
+                 
+             </div>
+             <div class="auteur">
+                 
+             </div>
+            
+         </div>
+    
+     </a>
+    
+</template>
+<template id="template_commentaire">
+   
+    <div class="commentaire">
+        <h3 class="name">jjjjj</h3>
+        <p class="parg">jjjjjjd</p>
+    </div>
+</template>
+</body>
+
+</html>

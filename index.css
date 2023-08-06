@@ -1,0 +1,26 @@
+main{
+    margin-top: 10px
+}
+main a {
+    text-decoration: none
+}
+main .a_la_une a {
+    color: var(--color-titre-article-a-la-une);
+    cursor: pointer;
+}
+main .a_la_une a img{
+    width: 100%;
+    height:200px;
+    border-radius: 15px
+    
+}
+main h1{
+    margin-bottom:2px
+}
+main span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300
+}
+main .a_la_une div{
+    margin-bottom:30px
+}
